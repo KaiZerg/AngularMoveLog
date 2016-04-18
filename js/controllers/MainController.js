@@ -1,37 +1,37 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.exercises = [
     {
-      icon: 'img/pushup.jpg',
+      icon: 'https://s3.amazonaws.com/codecademy-content/projects/4/move-log/img/pushup.jpg',
       name: 'Pushups',
       count: 20
     },
     {
-      icon: 'img/squat.jpg',
+      icon: 'https://s3.amazonaws.com/codecademy-content/projects/4/move-log/img/squat.jpg',
       name: 'Squats',
       count: 15
     },
     {
-      icon: 'img/pullup.jpg',
+      icon: 'https://s3.amazonaws.com/codecademy-content/projects/4/move-log/img/pullup.jpg',
       name: 'Pullups',
       count: 10
     },
     {
-      icon: 'img/row.jpg',
+      icon: 'https://s3.amazonaws.com/codecademy-content/projects/4/move-log/img/row.jpg',
       name: 'Rows',
       count: 10
     },
     {
-      icon: 'img/lunge.jpg',
+      icon: 'https://s3.amazonaws.com/codecademy-content/projects/4/move-log/img/lunge.jpg',
       name: 'Lunges',
       count: 10
     },
     {
-      icon: 'img/stepup.jpg',
+      icon: 'https://s3.amazonaws.com/codecademy-content/projects/4/move-log/img/stepup.jpg',
       name: 'Step Ups',
       count: 10
     },
     {
-      icon: 'img/situp.jpg',
+      icon: 'https://s3.amazonaws.com/codecademy-content/projects/4/move-log/img/situp.jpg',
       name: 'Sit Ups',
       count: 15
     }
